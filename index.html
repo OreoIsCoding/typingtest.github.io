@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css">
+    
+    <title>Typing Test</title>
+   
+</head>
+<body>
+    <h2>Test your typing speed</h2>
+
+    <div class="stats-container">
+    <p>Timer:<span class="timer" id="timer"> 60s </span></p>
+    <p>WPM:<span class="wpmCount" id="wpmCount"> 0 </span></p>
+   </div>
+
+
+    <div class="words-container" id="words-container">
+       
+        <div class="words-display" id="displayWords">
+         
+            <!--words will display here-->
+        </div>
+        
+        <div class="input-words" id="input-words">
+        
+            <input type="text" class="input" placeholder="Start typing here...">
+        <button type="reset" class="reset-btn" id="reset-btn">Restart</button>
+
+        </div>
+    </div>
+    
+    <script src="functions/functions.js"></script>
+   
+
+</body>
+</html>
